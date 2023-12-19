@@ -1,0 +1,195 @@
+
+
+.GAP{
+    padding-bottom: 100%;
+}
+
+.homebutn{
+    border-image: 1px ;
+}
+
+ion-icon{
+    font-size: 45px;
+}
+
+.webpg1HTML{
+    width: auto;
+    background-color: antiquewhite;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.menusharp{
+    width: 60px; 
+    height: 60px; 
+    background: aliceblue;
+    color: rgb(0, 0, 0);
+    display: inline-flex; 
+    cursor: pointer; 
+    border: none; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.open{
+    width: 60px; 
+    height: 60px; 
+    background: aliceblue;
+    color: rgb(0, 0, 0);
+    display: inline-flex; 
+    cursor: pointer; 
+    border: none; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.btns{
+    margin-left: 30px;
+    font-size: 40px;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(5, 17, 27, 0);
+    color: rgb(0, 0, 0);
+    transition-duration: ease-out 0.5s;
+    position: relative;
+    font-size: 2rem;
+}
+
+.btns:hover{
+    border-bottom: 3px solid rgba(31, 83, 122);
+    color: rgb(10, 44, 73);
+    cursor: pointer;
+}
+
+.btns:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    content: "";
+}
+
+.btns:hover::before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+}
+
+.HOMEDASHBOARDparagraph{
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.tyot {
+    background-color: rgba(128, 128, 128, 0);
+    width: 700px;
+}
+
+h3{
+    color: rgb(147, 151, 153);
+    margin-top: 50px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-wrap: 1px;
+    letter-spacing: 1px;
+}
+
+
+.aboutmecont{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 6px;
+    padding-bottom: 150px;
+}
+
+.img{
+    max-width: 1200px;
+    max-height: 200px;
+    padding-left: 50px;
+}
+
+.img img{
+    border-radius: 5%;
+}
+
+.note{
+    font-size: 50px;
+    padding-top: 50px;
+}
+#guton{
+    background-color: rgb(51, 96, 128);
+    color: aliceblue;
+}
+
+.descrip{
+    position: relative;
+    text-align: right;
+    color: antiquewhite;
+
+}
+
+.descrip img{
+    border-radius: 6px;
+    transition: 1.5s ease-in-out;
+}
+.descrip img:hover{
+    transform: scale(1.5);
+}
+
+
+.textnoed{
+    color: antiquewhite;
+    position: absolute;
+    bottom: 10px;
+    right: 1px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    text-shadow: rgb(17, 16, 12) 5px 1 20px;
+}
+
+.descrip2{
+    margin-top: 100px;
+   
+}
+.descrip2 img{
+    border-radius: 10px;
+    transition: 1.5s ease-in-out;
+    width: 500px;
+}
+.descrip2 img:hover{
+    transform: scale(1.5);
+}
+.akoDescrip{
+    width: 850px;
+}
+.akoDescrip h2{
+    margin-top: 150px;
+    color: aliceblue;
+    margin-bottom: 150px;
+}
+.bottom{
+    background-color: rgba(250, 235, 215, 0.562);
+    width: auto;
+}
+.bottom h1{
+    text-align: center;
+    font-size: small;
+}
+.textso{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.textso h1{
+    color: antiquewhite;
+    font-size: 70px;
+}

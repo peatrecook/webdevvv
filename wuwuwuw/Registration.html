@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registeredit.css">
+    <script src="<script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+    <script src="jsvalidation.js" defer></script>
+    <title>WEBPAGE3</title>
+</head>
+<body>
+    <div class="signupnow">
+        <h1>SIGN UP!</h1>
+    </div>
+
+    <form action="signup.php" method="post" id="signup">
+        <div class="signupformNAME">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div class="signupformEMAIL">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="signupformPASS">
+            <label for="passw">Password</label>
+            <input type="password" id="password" name="passw">
+        </div>
+        <div class="passwordConfirmation">
+            <label for="password_confirm">Re-enter Password</label>
+            <input type="password" id="password_confirmation"
+            name="passwordconfirm">
+        </div>
+        <button class="submit">
+            Sign up!
+        </button>
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signupnow{
+    text-decoration: none;
+    text-align: right;
+}
+.signupnow h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+}
+.container{
+    color: antiquewhite;
+    width: 500px;
+    text-align: center;
+    margin-left: 430px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: #44504c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
